@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam2_3dTest-spencer loggia-2019-10-27\\dlc-models\\iteration-0\\Cam2_3dTestOct27-trainset95shuffle1\\train\\snapshot-1000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam2_3dTest-spencer loggia-2019-10-27\\dlc-models\\iteration-0\\Cam2_3dTestOct27-trainset95shuffle1\\train\\snapshot-1000"

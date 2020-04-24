@@ -1,0 +1,5 @@
+model_checkpoint_path: "F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam1_3dTest-spencer loggia-2019-10-27\\dlc-models\\iteration-0\\Cam1_3dTestOct27-trainset95shuffle1\\train\\snapshot-4000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam1_3dTest-spencer loggia-2019-10-27\\dlc-models\\iteration-0\\Cam1_3dTestOct27-trainset95shuffle1\\train\\snapshot-1000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam1_3dTest-spencer loggia-2019-10-27\\dlc-models\\iteration-0\\Cam1_3dTestOct27-trainset95shuffle1\\train\\snapshot-2000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam1_3dTest-spencer loggia-2019-10-27\\dlc-models\\iteration-0\\Cam1_3dTestOct27-trainset95shuffle1\\train\\snapshot-3000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam1_3dTest-spencer loggia-2019-10-27\\dlc-models\\iteration-0\\Cam1_3dTestOct27-trainset95shuffle1\\train\\snapshot-4000"

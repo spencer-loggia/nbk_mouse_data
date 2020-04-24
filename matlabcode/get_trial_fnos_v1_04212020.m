@@ -1,0 +1,186 @@
+
+% MOUSE, CAMERA AND SESSION SPECIFIC MANUAL DATA ENTRIES - START
+
+mouse_id = 'mitg11';
+ses_date = datestr('2020/04/13', 'mmddyyyy');
+% data below for MiTg11 - 13th April 2020
+from_excel_sheet = [        1379	1413
+1966	2013
+5282	5406
+6735	6759
+7140	7172
+8779	8812
+9194	9217
+9801	9934
+11478	11550
+13051	13077
+14697	14720
+16324	16390
+16784	16875
+18584	18633
+20301	20317
+20708	20737
+22440	22471
+24065	24147
+25853	25887
+27958	27990
+28386	28411
+29747	29822
+31421	31498
+33013	33071
+34603	34624
+34991	35017
+35372	35431
+36958	36995
+38427	38476
+40127	40193
+41676	41765
+43450	43522
+43916	43950
+44375	44451
+44942	44994
+46375	46415
+47826	47847
+49276	49306
+50706	50765
+52436	52475
+54139	54209
+54609	54656
+56219	56252
+56736	56776
+58105	58209
+58766	58801
+60222	60322
+62113	62209
+63867	63899
+65343	65389
+67029	67313
+67691	67700
+68114	68130
+68614	68636
+70267	70327
+71830	71894
+72294	72408
+74055	74162
+75665	75797
+77151	77183
+78723	78753
+79138	79167
+80753	80803
+82483	82527
+84406	84444
+86069	86090
+87803	87857
+90150	90175
+90529	90559
+92171	92260
+94161	94229
+96012	96111
+97755	97788
+99694	99852
+100406	100429
+100830	100950
+102686	102720
+104640	104658
+105044	105060
+106778	106918
+108650	108752
+110677	110692
+112655	112722
+114581	114631
+115042	115069
+116211	116281
+117938	117964
+118359	118395
+118775	118809
+119213	119261
+119661	119721
+120076	120116
+120735	120786
+122218	122248
+123778	123811
+124173	124186
+124542	124546
+124954	125135
+125585	125628
+125986	126025
+126384	126420
+126814	127479
+127866	127899
+128267	128291
+130270	130457
+132023	132046
+133848	133880
+135796	135903
+137764	137788
+138161	138187
+140235	140353
+142121	142243
+142620	142709
+143107	143143
+144927	144951
+146763	146821
+149030	149122
+151259	151295
+153269	153319
+155784	155813
+156260	156301
+158492	158542
+158998	159085
+160980	161070
+161450	161548
+163197	163264
+165083	165213
+167314	167342
+169412	169521
+169892	169915
+172100	172140
+172526	172593
+174657	174701
+176374	176417
+178204	178241
+180030	180101
+181921	181950
+182349	182435
+184535	184630
+185000	185037
+187040	187099
+189114	189148
+191077	191198
+];
+
+%first_stim_fno = 579; % CAM1 - 839 - The manually obtained frame no of the stim appearance time of the first trial - using implay
+first_stim_fno = 530; %CAM2 - 533 - The manually obtained frame no of the stim appearance time of the first trial - using implay
+
+
+% MOUSE, CAMERA AND SESSION SPECIFIC MANUAL DATA ENTRIES - END
+
+% DATA BELOW THIS SHOULD REMAIN SAME FOR ALL SESSIONS AND MICE ON BOX 2
+FR = 30; % Hz - camera frame rate
+extra_fms = 30;
+
+
+stim_disp_t = from_excel_sheet(:,1);
+stim_end_t = from_excel_sheet(:,2);
+
+
+rel_tr_st_time_wrt_first_tr = stim_disp_t - repmat(stim_disp_t(1,1), length(stim_disp_t), 1);
+rel_tr_end_time_wrt_first_tr = stim_end_t - repmat(stim_disp_t(1,1), length(stim_disp_t), 1);
+
+rel_st_fno_wrt_first_tr = ceil(rel_tr_st_time_wrt_first_tr/100*FR);
+rel_end_fno_wrt_first_tr = ceil(rel_tr_end_time_wrt_first_tr/100*FR);
+
+next_stim_start_fno = first_stim_fno + rel_st_fno_wrt_first_tr;
+next_stim_end_fno = first_stim_fno + rel_end_fno_wrt_first_tr;
+
+snippet_st_fno = next_stim_start_fno - extra_fms;
+snippet_end_fno = next_stim_end_fno + extra_fms;
+
+%format for use with snipping script
+lengths = snippet_end_fno - snippet_st_fno;
+max_len = ceil(mean(lengths));
+snippet_st_fno = max(snippet_st_fno, 1); %remove negative frame indexes
+%Test with manual video path
+path = 'F:\\MysoreData\\nbk\\mitg11_4-13-20\\cam2\\mitg11-533--04132020085315.avi';
+out = 'F:\\MysoreData\\nbk\\mitg11_4-13-20\\cam2\\clips';
+snipVideo(path, out, snippet_st_fno, snippet_end_fno)

@@ -1,0 +1,329 @@
+2019-10-27 13:02:53 Config:
+{'all_joints': [[0], [1], [2]],
+ 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3'],
+ 'batch_size': 1,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Cam2_3dTestOct27\\Cam2_3dTest_spencer '
+            'loggia95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\pbs-mysorelab\\.conda\\envs\\nbkGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Cam2_3dTestOct27\\Documentation_data-Cam2_3dTest_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 3,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam2_3dTest-spencer '
+                 'loggia-2019-10-27',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam2_3dTest-spencer '
+                    'loggia-2019-10-27\\dlc-models\\iteration-0\\Cam2_3dTestOct27-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-10-27 13:03:31 iteration: 10 loss: 0.2937 lr: 0.005
+2019-10-27 13:03:40 iteration: 20 loss: 0.0579 lr: 0.005
+2019-10-27 13:03:47 iteration: 30 loss: 0.0346 lr: 0.005
+2019-10-27 13:03:56 iteration: 40 loss: 0.0352 lr: 0.005
+2019-10-27 13:04:04 iteration: 50 loss: 0.0257 lr: 0.005
+2019-10-27 13:04:13 iteration: 60 loss: 0.0270 lr: 0.005
+2019-10-27 13:04:20 iteration: 70 loss: 0.0248 lr: 0.005
+2019-10-27 13:04:26 iteration: 80 loss: 0.0268 lr: 0.005
+2019-10-27 13:04:34 iteration: 90 loss: 0.0236 lr: 0.005
+2019-10-27 13:04:41 iteration: 100 loss: 0.0183 lr: 0.005
+2019-10-27 13:04:46 iteration: 110 loss: 0.0203 lr: 0.005
+2019-10-27 13:04:53 iteration: 120 loss: 0.0155 lr: 0.005
+2019-10-27 13:05:00 iteration: 130 loss: 0.0183 lr: 0.005
+2019-10-27 13:05:06 iteration: 140 loss: 0.0178 lr: 0.005
+2019-10-27 13:05:12 iteration: 150 loss: 0.0179 lr: 0.005
+2019-10-27 13:05:18 iteration: 160 loss: 0.0167 lr: 0.005
+2019-10-27 13:05:25 iteration: 170 loss: 0.0172 lr: 0.005
+2019-10-27 13:05:30 iteration: 180 loss: 0.0142 lr: 0.005
+2019-10-27 13:05:36 iteration: 190 loss: 0.0131 lr: 0.005
+2019-10-27 13:05:42 iteration: 200 loss: 0.0155 lr: 0.005
+2019-10-27 13:05:48 iteration: 210 loss: 0.0231 lr: 0.005
+2019-10-27 13:05:53 iteration: 220 loss: 0.0167 lr: 0.005
+2019-10-27 13:05:59 iteration: 230 loss: 0.0153 lr: 0.005
+2019-10-27 13:06:05 iteration: 240 loss: 0.0151 lr: 0.005
+2019-10-27 13:06:10 iteration: 250 loss: 0.0153 lr: 0.005
+2019-10-27 13:06:15 iteration: 260 loss: 0.0134 lr: 0.005
+2019-10-27 13:06:22 iteration: 270 loss: 0.0144 lr: 0.005
+2019-10-27 13:06:27 iteration: 280 loss: 0.0125 lr: 0.005
+2019-10-27 13:06:33 iteration: 290 loss: 0.0118 lr: 0.005
+2019-10-27 13:06:37 iteration: 300 loss: 0.0112 lr: 0.005
+2019-10-27 13:06:41 iteration: 310 loss: 0.0131 lr: 0.005
+2019-10-27 13:06:45 iteration: 320 loss: 0.0114 lr: 0.005
+2019-10-27 13:06:49 iteration: 330 loss: 0.0118 lr: 0.005
+2019-10-27 13:06:53 iteration: 340 loss: 0.0111 lr: 0.005
+2019-10-27 13:06:58 iteration: 350 loss: 0.0118 lr: 0.005
+2019-10-27 13:07:03 iteration: 360 loss: 0.0113 lr: 0.005
+2019-10-27 13:07:05 iteration: 370 loss: 0.0108 lr: 0.005
+2019-10-27 13:07:08 iteration: 380 loss: 0.0095 lr: 0.005
+2019-10-27 13:07:16 iteration: 390 loss: 0.0123 lr: 0.005
+2019-10-27 13:08:27 iteration: 400 loss: 0.0139 lr: 0.005
+2019-10-27 13:10:11 iteration: 410 loss: 0.0152 lr: 0.005
+2019-10-27 13:10:58 iteration: 420 loss: 0.0109 lr: 0.005
+2019-10-27 13:12:24 iteration: 430 loss: 0.0090 lr: 0.005
+2019-10-27 13:14:30 iteration: 440 loss: 0.0126 lr: 0.005
+2019-10-27 13:16:57 iteration: 450 loss: 0.0115 lr: 0.005
+2019-10-27 13:18:32 iteration: 460 loss: 0.0108 lr: 0.005
+2019-10-27 13:20:18 iteration: 470 loss: 0.0097 lr: 0.005
+2019-10-27 13:22:49 iteration: 480 loss: 0.0123 lr: 0.005
+2019-10-27 13:24:39 iteration: 490 loss: 0.0100 lr: 0.005
+2019-10-27 13:26:40 iteration: 500 loss: 0.0098 lr: 0.005
+2019-10-27 13:28:46 iteration: 510 loss: 0.0089 lr: 0.005
+2019-10-27 13:31:25 iteration: 520 loss: 0.0112 lr: 0.005
+2019-10-27 13:32:51 iteration: 530 loss: 0.0087 lr: 0.005
+2019-10-27 13:33:55 iteration: 540 loss: 0.0079 lr: 0.005
+2019-10-27 13:36:06 iteration: 550 loss: 0.0111 lr: 0.005
+2019-10-27 13:37:19 iteration: 560 loss: 0.0078 lr: 0.005
+2019-10-27 13:38:28 iteration: 570 loss: 0.0084 lr: 0.005
+2019-10-27 13:41:08 iteration: 580 loss: 0.0112 lr: 0.005
+2019-10-27 13:42:23 iteration: 590 loss: 0.0126 lr: 0.005
+2019-10-27 13:43:03 iteration: 600 loss: 0.0079 lr: 0.005
+2019-10-27 13:44:55 iteration: 610 loss: 0.0108 lr: 0.005
+2019-10-27 13:46:56 iteration: 620 loss: 0.0079 lr: 0.005
+2019-10-27 13:48:25 iteration: 630 loss: 0.0105 lr: 0.005
+2019-10-27 13:49:33 iteration: 640 loss: 0.0072 lr: 0.005
+2019-10-27 13:52:29 iteration: 650 loss: 0.0093 lr: 0.005
+2019-10-27 13:53:37 iteration: 660 loss: 0.0085 lr: 0.005
+2019-10-27 13:55:05 iteration: 670 loss: 0.0085 lr: 0.005
+2019-10-27 13:55:28 iteration: 680 loss: 0.0061 lr: 0.005
+2019-10-27 13:56:56 iteration: 690 loss: 0.0080 lr: 0.005
+2019-10-27 13:58:44 iteration: 700 loss: 0.0096 lr: 0.005
+2019-10-27 14:00:19 iteration: 710 loss: 0.0098 lr: 0.005
+2019-10-27 14:01:27 iteration: 720 loss: 0.0100 lr: 0.005
+2019-10-27 14:03:03 iteration: 730 loss: 0.0076 lr: 0.005
+2019-10-27 14:05:23 iteration: 740 loss: 0.0077 lr: 0.005
+2019-10-27 14:07:05 iteration: 750 loss: 0.0132 lr: 0.005
+2019-10-27 14:08:33 iteration: 760 loss: 0.0082 lr: 0.005
+2019-10-27 14:10:03 iteration: 770 loss: 0.0069 lr: 0.005
+2019-10-27 14:11:36 iteration: 780 loss: 0.0085 lr: 0.005
+2019-10-27 14:12:09 iteration: 790 loss: 0.0074 lr: 0.005
+2019-10-27 14:13:12 iteration: 800 loss: 0.0078 lr: 0.005
+2019-10-27 14:14:34 iteration: 810 loss: 0.0080 lr: 0.005
+2019-10-27 14:16:36 iteration: 820 loss: 0.0093 lr: 0.005
+2019-10-27 14:17:14 iteration: 830 loss: 0.0105 lr: 0.005
+2019-10-27 14:18:30 iteration: 840 loss: 0.0088 lr: 0.005
+2019-10-27 14:19:32 iteration: 850 loss: 0.0072 lr: 0.005
+2019-10-27 14:20:59 iteration: 860 loss: 0.0075 lr: 0.005
+2019-10-27 14:22:29 iteration: 870 loss: 0.0072 lr: 0.005
+2019-10-27 14:24:09 iteration: 880 loss: 0.0091 lr: 0.005
+2019-10-27 14:25:43 iteration: 890 loss: 0.0082 lr: 0.005
+2019-10-27 14:27:27 iteration: 900 loss: 0.0093 lr: 0.005
+2019-10-27 14:28:40 iteration: 910 loss: 0.0073 lr: 0.005
+2019-10-27 14:30:07 iteration: 920 loss: 0.0085 lr: 0.005
+2019-10-27 14:31:07 iteration: 930 loss: 0.0063 lr: 0.005
+2019-10-27 14:33:02 iteration: 940 loss: 0.0063 lr: 0.005
+2019-10-27 14:34:33 iteration: 950 loss: 0.0079 lr: 0.005
+2019-10-27 14:36:35 iteration: 960 loss: 0.0075 lr: 0.005
+2019-10-27 14:37:30 iteration: 970 loss: 0.0063 lr: 0.005
+2019-10-27 14:38:31 iteration: 980 loss: 0.0081 lr: 0.005
+2019-10-27 14:40:07 iteration: 990 loss: 0.0080 lr: 0.005
+2019-10-27 14:41:38 iteration: 1000 loss: 0.0069 lr: 0.005
+2019-10-27 14:42:40 iteration: 1010 loss: 0.0064 lr: 0.005
+2019-10-27 14:44:25 iteration: 1020 loss: 0.0093 lr: 0.005
+2019-10-27 14:46:08 iteration: 1030 loss: 0.0084 lr: 0.005
+2019-10-27 14:47:43 iteration: 1040 loss: 0.0077 lr: 0.005
+2019-10-27 14:49:05 iteration: 1050 loss: 0.0076 lr: 0.005
+2019-10-27 14:51:15 iteration: 1060 loss: 0.0082 lr: 0.005
+2019-10-27 14:52:32 iteration: 1070 loss: 0.0077 lr: 0.005
+2019-10-27 14:54:29 iteration: 1080 loss: 0.0090 lr: 0.005
+2019-10-27 14:55:52 iteration: 1090 loss: 0.0077 lr: 0.005
+2019-10-27 14:56:45 iteration: 1100 loss: 0.0074 lr: 0.005
+2019-10-27 14:57:57 iteration: 1110 loss: 0.0071 lr: 0.005
+2019-10-27 14:59:06 iteration: 1120 loss: 0.0079 lr: 0.005
+2019-10-27 15:00:49 iteration: 1130 loss: 0.0089 lr: 0.005
+2019-10-27 15:03:04 iteration: 1140 loss: 0.0096 lr: 0.005
+2019-10-27 15:04:20 iteration: 1150 loss: 0.0073 lr: 0.005
+2019-10-27 15:05:47 iteration: 1160 loss: 0.0071 lr: 0.005
+2019-10-27 15:07:32 iteration: 1170 loss: 0.0081 lr: 0.005
+2019-10-27 15:08:36 iteration: 1180 loss: 0.0064 lr: 0.005
+2019-10-27 15:09:15 iteration: 1190 loss: 0.0064 lr: 0.005
+2019-10-27 15:09:51 iteration: 1200 loss: 0.0063 lr: 0.005
+2019-10-27 15:10:36 iteration: 1210 loss: 0.0079 lr: 0.005
+2019-10-27 15:12:50 iteration: 1220 loss: 0.0066 lr: 0.005
+2019-10-27 15:13:12 iteration: 1230 loss: 0.0066 lr: 0.005
+2019-10-27 15:14:25 iteration: 1240 loss: 0.0079 lr: 0.005
+2019-10-27 15:16:50 iteration: 1250 loss: 0.0096 lr: 0.005
+2019-10-27 15:18:04 iteration: 1260 loss: 0.0071 lr: 0.005
+2019-10-27 15:19:01 iteration: 1270 loss: 0.0060 lr: 0.005
+2019-10-27 15:20:30 iteration: 1280 loss: 0.0082 lr: 0.005
+2019-10-27 15:21:32 iteration: 1290 loss: 0.0061 lr: 0.005
+2019-10-27 15:22:39 iteration: 1300 loss: 0.0063 lr: 0.005
+2019-10-27 15:24:54 iteration: 1310 loss: 0.0066 lr: 0.005
+2019-10-27 15:25:49 iteration: 1320 loss: 0.0067 lr: 0.005
+2019-10-27 15:27:19 iteration: 1330 loss: 0.0072 lr: 0.005
+2019-10-27 15:27:41 iteration: 1340 loss: 0.0061 lr: 0.005
+2019-10-27 15:28:42 iteration: 1350 loss: 0.0071 lr: 0.005
+2019-10-27 15:29:29 iteration: 1360 loss: 0.0058 lr: 0.005
+2019-10-27 15:30:58 iteration: 1370 loss: 0.0087 lr: 0.005
+2019-10-27 15:32:53 iteration: 1380 loss: 0.0076 lr: 0.005
+2019-10-27 15:34:17 iteration: 1390 loss: 0.0072 lr: 0.005
+2019-10-27 15:35:06 iteration: 1400 loss: 0.0058 lr: 0.005
+2019-10-27 15:35:44 iteration: 1410 loss: 0.0056 lr: 0.005
+2019-10-27 15:36:52 iteration: 1420 loss: 0.0064 lr: 0.005
+2019-10-27 15:37:55 iteration: 1430 loss: 0.0065 lr: 0.005
+2019-10-27 15:38:42 iteration: 1440 loss: 0.0066 lr: 0.005
+2019-10-27 15:39:59 iteration: 1450 loss: 0.0076 lr: 0.005
+2019-10-27 15:40:50 iteration: 1460 loss: 0.0075 lr: 0.005
+2019-10-27 15:42:33 iteration: 1470 loss: 0.0104 lr: 0.005
+2019-10-27 15:44:12 iteration: 1480 loss: 0.0051 lr: 0.005
+2019-10-27 15:45:31 iteration: 1490 loss: 0.0096 lr: 0.005
+2019-10-27 15:46:20 iteration: 1500 loss: 0.0058 lr: 0.005
+2019-10-27 15:47:22 iteration: 1510 loss: 0.0060 lr: 0.005
+2019-10-27 15:48:50 iteration: 1520 loss: 0.0060 lr: 0.005
+2019-10-27 15:50:00 iteration: 1530 loss: 0.0082 lr: 0.005
+2019-10-27 15:51:10 iteration: 1540 loss: 0.0073 lr: 0.005
+2019-10-27 15:52:13 iteration: 1550 loss: 0.0053 lr: 0.005
+2019-10-27 15:53:02 iteration: 1560 loss: 0.0062 lr: 0.005
+2019-10-27 15:53:42 iteration: 1570 loss: 0.0045 lr: 0.005
+2019-10-27 15:54:50 iteration: 1580 loss: 0.0054 lr: 0.005
+2019-10-27 15:55:53 iteration: 1590 loss: 0.0077 lr: 0.005
+2019-10-27 15:57:58 iteration: 1600 loss: 0.0072 lr: 0.005
+2019-10-27 15:59:09 iteration: 1610 loss: 0.0066 lr: 0.005
+2019-10-27 16:00:33 iteration: 1620 loss: 0.0096 lr: 0.005
+2019-10-27 16:01:22 iteration: 1630 loss: 0.0063 lr: 0.005
+2019-10-27 16:02:22 iteration: 1640 loss: 0.0055 lr: 0.005
+2019-10-27 19:25:58 Config:
+{'all_joints': [[0], [1], [2]],
+ 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3'],
+ 'batch_size': 1,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Cam2_3dTestOct27\\Cam2_3dTest_spencer '
+            'loggia95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\pbs-mysorelab\\.conda\\envs\\nbkGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Cam2_3dTestOct27\\Documentation_data-Cam2_3dTest_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 3,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam2_3dTest-spencer '
+                 'loggia-2019-10-27',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam2_3dTest-spencer '
+                    'loggia-2019-10-27\\dlc-models\\iteration-0\\Cam2_3dTestOct27-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-10-27 19:27:05 Config:
+{'all_joints': [[0], [1], [2]],
+ 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3'],
+ 'batch_size': 1,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Cam2_3dTestOct27\\Cam2_3dTest_spencer '
+            'loggia95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\pbs-mysorelab\\.conda\\envs\\nbkGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Cam2_3dTestOct27\\Documentation_data-Cam2_3dTest_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 3,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam2_3dTest-spencer '
+                 'loggia-2019-10-27',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'F:\\MysoreData\\nbk\\TestDLC\\3DTest\\Cam2_3dTest-spencer '
+                    'loggia-2019-10-27\\dlc-models\\iteration-0\\Cam2_3dTestOct27-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}

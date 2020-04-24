@@ -1,0 +1,70 @@
+# Project definitions (do not edit)
+Task: TEST_50fps_mitg05_042120_cam1
+scorer: spencer loggia
+date: Apr24
+
+# Project path (change when moving around)
+project_path: F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\videos\mitg05-839--04212020093253.avi_clip_1.avi:
+    crop: 1, 766, 4, 762
+  ? F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\videos\mitg05-839--04212020093253.avi_clip_10.avi
+  : crop: 0, 768, 0, 768
+  ? F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\videos\mitg05-839--04212020093253.avi_clip_100.avi
+  : crop: 2, 766, 4, 542
+  ? F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\videos\mitg05-839--04212020093253.avi_clip_101.avi
+  : crop: 4, 751, 16, 574
+  ? F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\videos\mitg05-839--04212020093253.avi_clip_102.avi
+  : crop: 54, 732, 22, 570
+  ? F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\videos\mitg05-839--04212020093253.avi_clip_103.avi
+  : crop: 46, 727, 32, 645
+  ? F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\videos\mitg05-839--04212020093253.avi_clip_104.avi
+  : crop: 67, 706, 22, 602
+  ? F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\videos\mitg05-839--04212020093253.avi_clip_105.avi
+  : crop: 55, 709, 13, 626
+  ? F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\videos\mitg05-839--04212020093253.avi_clip_106.avi
+  : crop: 51, 705, 19, 610
+  ? F:\MysoreData\nbk\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\videos\mitg05-839--04212020093253.avi_clip_107.avi
+  : crop: 62, 692, 19, 560
+bodyparts:
+- bodypart1
+- bodypart2
+- bodypart3
+start: 0
+stop: 1
+numframes2pick: 5
+
+# Plotting configuration
+skeleton:
+- - bodypart1
+  - bodypart2
+- - bodypart3
+skeleton_color: black
+pcutoff: 0.1
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+resnet: 50
+snapshotindex: -1
+batch_size: 8
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 800
+y1: 0
+y2: 800
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

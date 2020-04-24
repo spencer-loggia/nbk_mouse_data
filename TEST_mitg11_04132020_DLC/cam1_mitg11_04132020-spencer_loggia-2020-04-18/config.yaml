@@ -1,0 +1,100 @@
+# Project definitions (do not edit)
+Task: cam1_mitg11_04132020
+scorer: spencer_loggia
+date: Apr18
+
+# Project path (change when moving around)
+project_path: F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_1.avi
+  : crop: 179, 1013, 171, 961
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_10.avi
+  : crop: 155, 1007, 201, 984
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_100.avi
+  : crop: 174, 1009, 190, 1010
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_101.avi
+  : crop: 178, 1011, 201, 995
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_102.avi
+  : crop: 151, 1015, 181, 982
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_103.avi
+  : crop: 134, 1005, 200, 938
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_104.avi
+  : crop: 170, 1022, 184, 904
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_105.avi
+  : crop: 206, 1000, 194, 893
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_106.avi
+  : crop: 176, 1009, 215, 999
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_107.avi
+  : crop: 202, 1024, 198, 921
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_108.avi
+  : crop: 176, 1000, 186, 931
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_109.avi
+  : crop: 170, 956, 184, 857
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_11.avi
+  : crop: 213, 984, 188, 908
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_110.avi
+  : crop: 242, 1003, 198, 961
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_111.avi
+  : crop: 312, 994, 205, 952
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_112.avi
+  : crop: 229, 998, 200, 914
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_113.avi
+  : crop: 264, 1009, 188, 927
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_114.avi
+  : crop: 246, 933, 196, 904
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_115.avi
+  : crop: 232, 1015, 200, 882
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_116.avi
+  : crop: 227, 984, 196, 880
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_117.avi
+  : crop: 270, 962, 194, 869
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_118.avi
+  : crop: 274, 950, 211, 857
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_119.avi
+  : crop: 227, 935, 213, 886
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_12.avi
+  : crop: 251, 956, 194, 863
+  ? F:\MysoreData\nbk\TEST_mitg11_04132020_DLC\cam1_mitg11_04132020-spencer_loggia-2020-04-18\videos\mitg11-839--04132020085312.avi_clip_120.avi
+  : crop: 227, 958, 226, 882
+bodyparts:
+- bodypart1
+- bodypart2
+- bodypart3
+start: 0
+stop: 1
+numframes2pick: 1
+
+# Plotting configuration
+skeleton:
+- - bodypart1
+  - bodypart2
+- - bodypart3
+skeleton_color: black
+pcutoff: 0.1
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+resnet: 50
+snapshotindex: -1
+batch_size: 8
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:\\MysoreData\\nbk\\TestDLC\\bat tracking test2-spencer loggia-2019-08-26\\dlc-models\\iteration-0\\bat tracking test2Aug26-trainset95shuffle1\\train\\snapshot-50000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TestDLC\\bat tracking test2-spencer loggia-2019-08-26\\dlc-models\\iteration-0\\bat tracking test2Aug26-trainset95shuffle1\\train\\snapshot-50000"

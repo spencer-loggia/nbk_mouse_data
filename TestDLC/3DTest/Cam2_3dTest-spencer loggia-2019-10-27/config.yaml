@@ -1,0 +1,55 @@
+# Project definitions (do not edit)
+Task: Cam2_3dTest
+scorer: spencer loggia
+date: Oct27
+
+# Project path (change when moving around)
+project_path: F:\MysoreData\nbk\TestDLC\3DTest\Cam2_3dTest-spencer loggia-2019-10-27
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  F:\MysoreData\nbk\TestDLC\3DTest\Cam2_3dTest-spencer loggia-2019-10-27\videos\camera-2-motion_01.avi:
+    crop: 1, 637, 3, 479
+  F:\MysoreData\nbk\TestDLC\3DTest\Cam2_3dTest-spencer loggia-2019-10-27\videos\camera-2-train_01.avi:
+    crop: 1, 636, 1, 479
+bodyparts:
+- bodypart1
+- bodypart2
+- bodypart3
+start: 0
+stop: 1
+numframes2pick: 8
+
+# Plotting configuration
+skeleton:
+- - bodypart1
+  - bodypart2
+- - bodypart2
+  - bodypart3
+skeleton_color: black
+pcutoff: 0.1
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+resnet: 50
+snapshotindex: -1
+batch_size: 8
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

@@ -1,0 +1,142 @@
+2019-08-26 22:29:39 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3', 'objectA'],
+ 'batch_size': 1,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_bat tracking '
+            'test2Aug26\\bat tracking test2_spencer loggia95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'c:\\users\\pbs-mysorelab\\.conda\\envs\\nbk1\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_bat '
+                'tracking test2Aug26\\Documentation_data-bat tracking '
+                'test2_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'F:\\MysoreData\\nbk\\TestDLC\\bat tracking test2-spencer '
+                 'loggia-2019-08-26',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'F:\\MysoreData\\nbk\\TestDLC\\bat tracking test2-spencer '
+                    'loggia-2019-08-26\\dlc-models\\iteration-0\\bat tracking '
+                    'test2Aug26-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-08-26 23:15:42 iteration: 1000 loss: 0.0219 lr: 0.005
+2019-08-27 00:02:14 iteration: 2000 loss: 0.0079 lr: 0.005
+2019-08-27 00:46:04 iteration: 3000 loss: 0.0052 lr: 0.005
+2019-08-27 01:32:39 iteration: 4000 loss: 0.0039 lr: 0.005
+2019-08-27 02:16:58 iteration: 5000 loss: 0.0034 lr: 0.005
+2019-08-27 03:03:01 iteration: 6000 loss: 0.0031 lr: 0.005
+2019-08-27 03:47:15 iteration: 7000 loss: 0.0030 lr: 0.005
+2019-08-27 04:32:35 iteration: 8000 loss: 0.0026 lr: 0.005
+2019-08-27 05:17:21 iteration: 9000 loss: 0.0025 lr: 0.005
+2019-08-27 06:02:34 iteration: 10000 loss: 0.0023 lr: 0.005
+2019-08-27 06:49:38 iteration: 11000 loss: 0.0049 lr: 0.02
+2019-08-27 07:34:31 iteration: 12000 loss: 0.0033 lr: 0.02
+2019-08-27 08:19:51 iteration: 13000 loss: 0.0029 lr: 0.02
+2019-08-27 09:03:33 iteration: 14000 loss: 0.0026 lr: 0.02
+2019-08-27 09:48:09 iteration: 15000 loss: 0.0024 lr: 0.02
+2019-08-27 10:34:56 iteration: 16000 loss: 0.0022 lr: 0.02
+2019-08-27 11:20:33 iteration: 17000 loss: 0.0022 lr: 0.02
+2019-08-27 12:05:07 iteration: 18000 loss: 0.0021 lr: 0.02
+2019-08-27 12:50:08 iteration: 19000 loss: 0.0019 lr: 0.02
+2019-08-27 13:35:00 iteration: 20000 loss: 0.0019 lr: 0.02
+2019-08-27 14:19:27 iteration: 21000 loss: 0.0020 lr: 0.02
+2019-08-27 15:06:19 iteration: 22000 loss: 0.0018 lr: 0.02
+2019-08-27 15:50:17 iteration: 23000 loss: 0.0018 lr: 0.02
+2019-08-27 16:36:42 iteration: 24000 loss: 0.0018 lr: 0.02
+2019-08-27 17:21:22 iteration: 25000 loss: 0.0018 lr: 0.02
+2019-08-27 18:06:45 iteration: 26000 loss: 0.0017 lr: 0.02
+2019-08-27 18:50:28 iteration: 27000 loss: 0.0017 lr: 0.02
+2019-08-27 19:34:20 iteration: 28000 loss: 0.0017 lr: 0.02
+2019-08-27 20:19:59 iteration: 29000 loss: 0.0016 lr: 0.02
+2019-08-27 21:05:40 iteration: 30000 loss: 0.0017 lr: 0.02
+2019-08-27 21:50:38 iteration: 31000 loss: 0.0016 lr: 0.02
+2019-08-27 22:36:30 iteration: 32000 loss: 0.0016 lr: 0.02
+2019-08-27 23:22:04 iteration: 33000 loss: 0.0016 lr: 0.02
+2019-08-28 00:07:35 iteration: 34000 loss: 0.0016 lr: 0.02
+2019-08-28 00:50:47 iteration: 35000 loss: 0.0015 lr: 0.02
+2019-08-28 01:36:17 iteration: 36000 loss: 0.0016 lr: 0.02
+2019-08-28 02:22:24 iteration: 37000 loss: 0.0015 lr: 0.02
+2019-08-28 03:08:11 iteration: 38000 loss: 0.0015 lr: 0.02
+2019-08-28 03:55:09 iteration: 39000 loss: 0.0015 lr: 0.02
+2019-08-28 04:39:54 iteration: 40000 loss: 0.0015 lr: 0.02
+2019-08-28 05:24:11 iteration: 41000 loss: 0.0014 lr: 0.02
+2019-08-28 06:09:07 iteration: 42000 loss: 0.0015 lr: 0.02
+2019-08-28 06:54:45 iteration: 43000 loss: 0.0014 lr: 0.02
+2019-08-28 07:40:28 iteration: 44000 loss: 0.0015 lr: 0.02
+2019-08-28 08:25:40 iteration: 45000 loss: 0.0015 lr: 0.02
+2019-08-28 09:10:48 iteration: 46000 loss: 0.0014 lr: 0.02
+2019-08-28 09:57:07 iteration: 47000 loss: 0.0014 lr: 0.02
+2019-08-28 10:42:56 iteration: 48000 loss: 0.0014 lr: 0.02
+2019-08-28 11:29:38 iteration: 49000 loss: 0.0014 lr: 0.02
+2019-08-28 12:14:38 iteration: 50000 loss: 0.0014 lr: 0.02
+2019-08-28 13:01:07 iteration: 51000 loss: 0.0014 lr: 0.02
+2019-08-28 13:46:37 iteration: 52000 loss: 0.0014 lr: 0.02
+2019-08-28 14:30:52 iteration: 53000 loss: 0.0014 lr: 0.02
+2019-08-28 15:16:06 iteration: 54000 loss: 0.0014 lr: 0.02
+2019-08-28 16:00:29 iteration: 55000 loss: 0.0014 lr: 0.02
+2019-08-28 16:45:06 iteration: 56000 loss: 0.0014 lr: 0.02
+2019-08-28 17:30:50 iteration: 57000 loss: 0.0014 lr: 0.02
+2019-08-28 18:16:46 iteration: 58000 loss: 0.0014 lr: 0.02
+2019-08-28 19:02:59 iteration: 59000 loss: 0.0013 lr: 0.02
+2019-08-28 19:48:02 iteration: 60000 loss: 0.0014 lr: 0.02
+2019-08-28 20:34:34 iteration: 61000 loss: 0.0013 lr: 0.02
+2019-08-28 21:20:52 iteration: 62000 loss: 0.0013 lr: 0.02
+2019-08-28 22:06:23 iteration: 63000 loss: 0.0013 lr: 0.02
+2019-08-28 22:52:59 iteration: 64000 loss: 0.0013 lr: 0.02
+2019-08-28 23:38:45 iteration: 65000 loss: 0.0013 lr: 0.02
+2019-08-29 00:25:09 iteration: 66000 loss: 0.0013 lr: 0.02
+2019-08-29 01:11:10 iteration: 67000 loss: 0.0013 lr: 0.02
+2019-08-29 01:57:03 iteration: 68000 loss: 0.0013 lr: 0.02
+2019-08-29 02:42:51 iteration: 69000 loss: 0.0013 lr: 0.02
+2019-08-29 03:29:31 iteration: 70000 loss: 0.0013 lr: 0.02
+2019-08-29 04:16:07 iteration: 71000 loss: 0.0013 lr: 0.02
+2019-08-29 05:01:20 iteration: 72000 loss: 0.0013 lr: 0.02
+2019-08-29 05:49:25 iteration: 73000 loss: 0.0013 lr: 0.02
+2019-08-29 06:36:18 iteration: 74000 loss: 0.0013 lr: 0.02
+2019-08-29 07:24:46 iteration: 75000 loss: 0.0013 lr: 0.02
+2019-08-29 08:11:21 iteration: 76000 loss: 0.0013 lr: 0.02
+2019-08-29 08:58:03 iteration: 77000 loss: 0.0013 lr: 0.02
+2019-08-29 09:43:12 iteration: 78000 loss: 0.0013 lr: 0.02
+2019-08-29 10:29:46 iteration: 79000 loss: 0.0013 lr: 0.02
+2019-08-29 11:16:21 iteration: 80000 loss: 0.0013 lr: 0.02
+2019-08-29 12:03:09 iteration: 81000 loss: 0.0013 lr: 0.02
+2019-08-29 12:48:45 iteration: 82000 loss: 0.0013 lr: 0.02
+2019-08-29 13:33:49 iteration: 83000 loss: 0.0013 lr: 0.02
+2019-08-29 14:21:21 iteration: 84000 loss: 0.0012 lr: 0.02

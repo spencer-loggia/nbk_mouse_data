@@ -1,0 +1,6 @@
+model_checkpoint_path: "F:\\MysoreData\\nbk\\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\\dlc-models\\iteration-0\\TEST_50fps_mitg05_042120_cam1Apr24-trainset95shuffle1\\train\\snapshot-90000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\\dlc-models\\iteration-0\\TEST_50fps_mitg05_042120_cam1Apr24-trainset95shuffle1\\train\\snapshot-86000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\\dlc-models\\iteration-0\\TEST_50fps_mitg05_042120_cam1Apr24-trainset95shuffle1\\train\\snapshot-87000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\\dlc-models\\iteration-0\\TEST_50fps_mitg05_042120_cam1Apr24-trainset95shuffle1\\train\\snapshot-88000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\\dlc-models\\iteration-0\\TEST_50fps_mitg05_042120_cam1Apr24-trainset95shuffle1\\train\\snapshot-89000"
+all_model_checkpoint_paths: "F:\\MysoreData\\nbk\\TEST_50fps_mitg05_042120_cam1-spencer loggia-2020-04-24\\dlc-models\\iteration-0\\TEST_50fps_mitg05_042120_cam1Apr24-trainset95shuffle1\\train\\snapshot-90000"
